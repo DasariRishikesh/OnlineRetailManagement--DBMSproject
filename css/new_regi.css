@@ -1,0 +1,51 @@
+body{
+    margin :auto;
+    padding: 0;
+    background :
+        linear-gradient(rgba(0, 0, 0, 0.719), rgba(0,0,0,0.7)),
+        url(img/back.jpg) no-repeat center center fixed;
+    
+    background-size:cover;
+    -webkit-background-size:cover ;
+    -o-background-size:cover;
+    font-family: sans-serif;
+}
+
+.loginform{
+    margin:auto; 
+    margin-top: 100px;
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    
+    padding: 50px 50px;
+    border: 5px;
+   
+}
+
+.loginform button[type="submit"]:hover {
+    cursor: pointer;
+    background: #8a9b2f;
+    color: #fff;
+}
+.button{
+border-color: #8a9b2f;
+height: 35px;
+background: #03416a;
+color: #fff;
+font-size: 15px;
+border-radius: 10px;
+
+}
+
+.signup:hover
+{
+    cursor: pointer;
+    background: #8a9b2f;
+    color: #fff;
+}
+
+.loginform h2 {
+	margin-top: -30px;  
+	margin-bottom: 30px;  
+}

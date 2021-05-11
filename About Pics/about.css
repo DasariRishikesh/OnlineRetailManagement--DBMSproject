@@ -1,0 +1,74 @@
+*
+{
+    padding: 0;  
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    background-image: url(back5.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: rgb(157, 100, 0);
+   
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    text-align: center;
+    font-family: serif;
+    
+}
+.logo{
+    float: unset;
+    width: 100px;
+    height: 80px;
+    border-radius:25% ;
+    position: relative;
+    top:5px ;
+    
+}
+.container
+{
+    margin: 100px auto;
+    width: 70%;
+    padding: 8px;
+}
+img
+{
+    float: left;
+    width: 450px;
+    height: 250px;
+    padding: 0 10px 0 0;
+    border-radius:25% ;
+}
+.text
+{
+    text-align: justify;
+    font-family: serif;
+    font-style: italic;
+}
+.aboutimg2
+{
+    float: left;
+    width: 450px;
+    height: 250px;
+    padding: 0 10px 0 0;
+    border-radius:25% ;
+}
+.text
+{
+    text-align: justify;
+    font-family: serif;
+    font-style: italic;
+}
+.menu-bar2
+{ 
+    text-align: center;
+    font-style: initial;
+    font-family: serif;
+}
+
+
+

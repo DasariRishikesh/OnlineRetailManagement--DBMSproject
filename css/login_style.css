@@ -1,0 +1,130 @@
+body{
+    margin :auto;
+    padding: 0;
+    background :
+                 linear-gradient(rgba(0, 0, 0, 0.397), rgba(0,0,0,0.7)),
+                 url(img/back.jpg) no-repeat center center fixed   ;
+    
+    background-size:cover;
+    -webkit-background-size:cover ;
+    -o-background-size:cover;
+    font-family: sans-serif;
+}
+form{
+    padding: auto;
+}
+.loginbox{
+    width: 320px;
+    height: auto;
+    background: aliceblue;
+    color: rgb(26, 23, 23);
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 70px;
+    border-radius: 5px;
+}
+.login{
+     width: 100px;
+     height: 80px;
+     border-radius:205% ;
+     position: absolute;
+     padding: auto;
+     top:-30px ;
+     left: calc(50% - 50px);
+     
+    
+    }
+
+ .store   {width: auto;
+        height: auto;
+        border-radius: 205%;
+        position: relative;
+        padding-bottom: 25px;
+        margin-top: -25px;
+        margin-bottom: 25px;
+
+
+        }
+.h1{
+        margin: 0;
+        padding: 0 0 20px;
+        text-align: center;
+        font-size: 22px;
+    }
+.label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    margin-top: 10px; ;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:white;
+    outline: 40px;
+    color:rgb(26, 10, 10);
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+    border: 2px;
+    border-color: #8a9b2f;
+    outline: none;
+    height: 40px;
+    background:#03416a;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #8a9b2f;
+    color: #fff;
+}
+
+.loginbox a{
+    text-decoration: dotted;
+    font-size: 12px;
+    line-height: 15px;
+    color:#8a9b2f;
+    font-weight:inherit;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.loginbox a:hover
+{
+    color: darkgreen;
+}
+a.login_alert{
+    position: relative;
+    margin-top: 50%;
+    margin-left: 50%;
+    color: red;
+}
+
+.loginissue{
+    margin: auto;
+    position: relative;
+    top: -10px;
+    padding: auto;
+
+    font-size: 15;
+    font-weight: bold;
+}
+
+

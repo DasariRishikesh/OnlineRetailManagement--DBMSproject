@@ -1,0 +1,102 @@
+body{
+    margin :auto;
+    padding: 0;
+    background :
+        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+        url(/img/back.jpg) no-repeat center center fixed;
+    
+    background-size:cover;
+    -webkit-background-size:cover ;
+    -o-background-size:cover;
+    font-family: sans-serif;
+}
+
+
+.regibox {
+	width: 360px;
+	border-style: solid;
+	border-color: seagreen;
+	color: rgb(0, 0, 0);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 55px 49px;
+	border-radius: 5px;
+	background-color: #ffffffb5;
+}
+.login{
+     width: 100px;
+     height: 80px;
+     border-radius:25% ;
+     position: absolute;
+     top:-30px ;
+     left: calc(50% - 50px);
+    
+    
+    }
+.h1{
+        margin: 0;
+        padding: 0 0 20px;
+        text-align: center;
+        font-size: 22px;
+    }
+    .regibox{
+        align-self: center;
+    }
+.regibox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.regibox input{
+
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.regibox input[type="text"], input[type="password"],input[type="email"]
+{
+    margin-top: 10px; ;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent ;
+    outline: 40px;
+    color: rgb(2,46,51);
+    font-size: 16px;
+}
+
+.regibox input[type="submit"]
+{
+    border: 2px;
+    border-color: #8a9b2f;
+    outline: none;
+    height: 40px;
+    background:#03416a;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.regibox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #8a9b2f;
+    color: #fff;
+}
+
+.regibox a{
+    text-decoration: dotted;
+    font-size: 14px;
+    line-height: 15px;
+    color:#8a9b2f;
+    font-weight:inherit;
+    margin-top: 5px;
+}
+
+.regibox a:hover
+{
+    color: blue;
+}
