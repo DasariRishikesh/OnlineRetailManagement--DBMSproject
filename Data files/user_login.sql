@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `invoice_order`
+-- Table structure for table `invoice_order'
 --
 
 DROP TABLE IF EXISTS `invoice_order`;
